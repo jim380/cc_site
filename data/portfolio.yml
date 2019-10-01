@@ -1,0 +1,73 @@
+enable : true
+heading : Our
+headingSpan : Works
+filterList : 
+  - filterType : portfolio
+    filterTitle : Portfolio
+    
+  - filterType : development
+    filterTitle : Projects
+
+portfolioItem :
+  - types : portfolio
+    image : images/portfolio/irisnet.png
+    icon : tf-ion-android-search
+    URL : https://iris.bigdipper.live/validator/iva1kfhee2nqrg64krqa97q3ufw9d0phzp3jjq3c4j
+    title : IRISnet
+    description : 
+    
+  - types : portfolio
+    image : images/portfolio/cosmos.png
+    icon : tf-ion-android-search
+    URL : https://cosmos.bigdipper.live/validator/cosmosvaloper1pjmngrwcsatsuyy8m3qrunaun67sr9x7z5r2qs
+    title : Cosmos
+    description :
+    
+  - types : portfolio
+    image : images/portfolio/origintrail.png
+    icon : tf-ion-android-search
+    URL : #
+    title : OriginTrail
+    description :
+    
+  - types : portfolio
+    image : images/portfolio/regen.png
+    icon : tf-ion-android-search
+    URL : #
+    title : Regen Netowrk
+    description :
+    
+  - types : portfolio
+    image : images/portfolio/wanchain.png
+    icon : tf-ion-android-search
+    URL : https://www.wanscan.org/vld/0xd5ac2836fb15d71119af111bb269ffbd3f7928c5
+    title : Wanchain
+    description :
+    
+  - types : portfolio
+    image : images/portfolio/polkadot.png
+    icon : tf-ion-android-search
+    URL : #
+    title : Polkadot
+    description :
+    
+  - types : development
+    image : images/portfolio/coris.png
+    icon : tf-ion-android-search
+    URL : https://github.com/jim380/Coris
+    title : Coris Explorer
+    description :
+    
+  - types : development
+    image : images/portfolio/botiana.png
+    icon : tf-ion-android-search
+    URL : https://github.com/jim380/Botelicious
+    title : Botelicious
+    description :
+    
+  - types : development
+    image : images/portfolio/faucet.png
+    icon : tf-ion-android-search
+    URL : https://github.com/cyphercore-dev/regen-faucet
+    title : Token Faucet
+    description :

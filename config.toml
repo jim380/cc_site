@@ -1,0 +1,124 @@
+baseURL = "https://cyphercore.io"
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+title = "Cypher Core"
+theme = "meghna-hugo"
+summaryLength = 10
+
+[taxonomies]
+  author = "author"
+  category = "categories"
+  tag = "tags"
+
+# Menu
+[menu]
+    [[menu.nav]]
+    name = "About"
+    URL = "about"
+    weight = 2
+
+    [[menu.nav]]
+    name = "Staking"
+    URL = "services"
+    weight = 3
+
+    [[menu.nav]]
+    name = "Works"
+    URL = "portfolio"
+    weight = 4
+
+    [[menu.nav]]
+    name = "Team"
+    URL = "our-team"
+    weight = 5
+
+    [[menu.nav]]
+    name = "Contact"
+    URL = "contact-us"
+    weight = 7
+
+# Site params
+[params]
+home= "Home"
+logo = "images/logo_cc.png"
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+# Meta data
+description = "Staking Service"
+author = "Cypher Core"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+custom_css = ["css/custom.css"]
+
+    # Banner Section
+    [params.banner]
+    enable = true
+    bgImage = "images/slider/bg.jpg"
+    icon = "tf-ion-play"
+    heading = "Cypher Core"
+    content= "DeFi for everyone"
+    btn = true
+    btnText="Explore Us"
+    btnURL="#services"
+
+    # call to action
+    [params.cta]
+    enable = true
+    title = "Find Your Tribe"
+    content = "Come hang and connect with like minded souls."
+    btnURL = "https://t.me/joinchat/FF8nlFiZdotnygtg-zDFHw"
+    btnText = "Join Our Community"
+
+    # counter
+    [params.counter]
+    enable = false
+    bgImage = "images/backgrounds/bg-1.jpg"
+        [[params.counter.counterItem]]
+        title = "Happy Clients"
+        icon = "tf-ion-android-happy"
+        count = "320"
+
+        [[params.counter.counterItem]]
+        title = "Projects completed"
+        icon = "tf-ion-archive"
+        count = "565"
+
+        [[params.counter.counterItem]]
+        title = "Positive feedback"
+        icon = "tf-ion-thumbsup"
+        count = "95"
+
+        [[params.counter.counterItem]]
+        title = "Cups of Coffee"
+        icon = "tf-ion-coffee"
+        count = "2500"
+
+    # footer
+    [params.footer]
+        copyright = "Cypher Core LLC."
+        copyrightURL = "http://cyphercore.io"
+
+        # social Icons
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-twitter"
+        url = "https://twitter.com/cypher_core"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-youtube"
+        url = "https://www.youtube.com/channel/UC3TX-EeAeg7LyEzf6isIC8g"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-linkedin"
+        url = "https://www.linkedin.com/company/cypher-core/"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-instagram"
+        url = "https://www.instagram.com/cypher_core/"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-github"
+        url = "https://github.com/cyphercore-dev"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-ios-book"
+        url = "https://medium.com/cypher-core"
+

@@ -1,0 +1,27 @@
+enable : true
+heading : Staking
+headingSpan : Service
+serviceItem :
+  - icon : tf-globe
+    title : Consistency
+    content : In a distributed Proof-of-Stake system where network partitions are inevitable, we prioritize consistency over availability due to the harsher penalty for inconsistency than unavailability.
+    
+  - icon : tf-ion-laptop
+    title : Reliability
+    content : We believe the basis of reliability is simplicity. Complication often ends up being over-promising and under-performing. What's a good system if you can't sufficiently maintain it?
+    
+  - icon : tf-genius
+    title : Resilience
+    content : Security cannot be guaranteed but resilience can. We fully adapt the "Prevention, Detection and Response" approach standardized in the Information Security industry to mitigate risks.
+    
+  - icon : tf-dial
+    title : Key Management
+    content : We store our private keys on a HSM to prevent the keys being left exposed on the validator host. Our HSM has full Ed25519 signature support, and is used in signing votes and submitting block proposals.
+    
+  - icon : tf-target3
+    title : DDoS Protection
+    content : Geographically distributed sentry nodes are utilized to shift the burden of DDoS from the validator node(s), and can be quickly spun up or configured to mitigate the impact of existing attacks.
+    
+  - icon : tf-lifesaver
+    title : Monitoring
+    content : We collect a wide range of metrics including metrics exposed by the consensus protocol. Our ultimate goal is to develop one integrated tooling that combines metrics , monitoring and alerting.

@@ -1,0 +1,47 @@
+enable : true
+heading : Our
+headingSpan : Team
+teamMember :
+  - image : images/team/jay.jpg
+    name : Jay Jie
+    designation : Founder
+    description : Jay fell into the blockchain rabbit hole in 2016 and hasn't been able to get out. He loves his pitbull and enjoys weight training.
+    socialIcon :
+      - icon : tf-ion-social-twitter
+        url : "https://twitter.com/jim380"
+      - icon : tf-ion-social-linkedin
+        url : "https://www.linkedin.com/in/jyz1992/"
+      - icon : tf-ion-social-github
+        url : "https://github.com/jim380"
+      
+  - image : images/team/ken.jpg
+    name : Ken Trueba
+    designation : COO
+    description : Coming from sales management and finance Ken fulfills the missing element of the team. He enjoys cooking and hiking with his dogs.
+    socialIcon :
+      - icon : tf-ion-social-twitter
+        url : "https://twitter.com/Kennethstweets"
+      - icon : tf-ion-social-linkedin
+        url : "https://www.linkedin.com/in/ken-trueba-5576a1162/"
+      
+  - image : images/team/art.jpeg
+    name : Artem Akatev
+    designation : Lead Developer
+    description : Artem juggles web development, blockchain, and cryptography. He enjoys working on cars, and playing basketball.
+    socialIcon :
+      - icon : tf-ion-social-twitter
+        url : "https://twitter.com/aakatev"
+      - icon : tf-ion-social-linkedin
+        url : "https://www.linkedin.com/in/artem-akatev-b68195144/"
+      - icon : tf-ion-social-github
+        url : "https://github.com/aakatev"
+      
+  - image : images/team/jason.png
+    name : Jason Maehr
+    designation : Mr. Adviser
+    description : Wharton School of Business graduate, ex-Wall Streeter, Jason looks out for the team with his experience. And kindness.
+    socialIcon :
+      - icon : tf-ion-social-twitter
+        url : "https://twitter.com/dabitfather2"
+      - icon : tf-ion-social-linkedin
+        url : "https://www.linkedin.com/in/jasonmaehr/"

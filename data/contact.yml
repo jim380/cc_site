@@ -1,0 +1,18 @@
+enable : true
+heading : Contact
+headingSpan : Us
+title : Contact Details
+content : Have questions? Get in touch.
+enable_maps : false
+mapLatitude : 51.5223477
+mapLongitude: -0.1622023
+contactDetails :
+  - icon : tf-map-pin
+    info : "Mountain View, CA, United States"
+    
+  - icon : tf-ion-ios-telephone-outline
+    info : "Phone: +1 (541) 908-4148"
+    
+  - icon : tf-ion-ios-email-outline
+    info : "Email: admin@cyphercore.io"
+    
