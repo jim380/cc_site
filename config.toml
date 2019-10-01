@@ -1,4 +1,4 @@
-baseURL = "https://cyphercore.io"
+baseURL = "/"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "Cypher Core"
