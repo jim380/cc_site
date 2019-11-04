@@ -24,10 +24,10 @@ portfolioItem :
     description :
     
   - types : portfolio
-    image : images/portfolio/origintrail.png
+    image : images/portfolio/lino.png
     icon : tf-ion-android-search
-    URL : #
-    title : OriginTrail
+    URL : https://tracker.lino.network/#/account/cyphercore
+    title : Lino
     description :
     
   - types : portfolio
@@ -45,10 +45,10 @@ portfolioItem :
     description :
     
   - types : portfolio
-    image : images/portfolio/polkadot.png
+    image : images/portfolio/near.png
     icon : tf-ion-android-search
     URL : #
-    title : Polkadot
+    title : Near
     description :
     
   - types : development
