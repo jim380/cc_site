@@ -1,0 +1,56 @@
+############################### team ############################
+team:
+  enable : true
+  title : Our Team
+  team_member :
+    # team member loop
+    - name : Jay Jie
+      image_webp : images/team/jay.jpg
+      image : images/team/jay.jpg
+      designation : Founder
+      content : Jay fell into the blockchain rabbit hole in 2016 and hasn't been able to get out. He loves his pitbull and enjoys weight training.
+      social :
+        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
+          link : "https://twitter.com/jim380"
+        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
+          link : "https://www.linkedin.com/in/jyz1992/"
+        - icon : ti-github # themify icon pack : https://themify.me/themify-icons
+          link : "https://github.com/jim380"
+        
+    # team member loop
+    - name : Ken Trueba
+      image_webp : images/team/ken.jpg
+      image : images/team/ken.jpg
+      designation : COO
+      content : Coming from sales management and finance Ken fulfills the missing element of the team. He enjoys cooking and hiking with his dogs.
+      social :
+        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
+          link : "https://twitter.com/Kennethstweets"
+        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
+          link : "https://twitter.com/Kennethstweets"
+        
+    # team member loop
+    - name : Artem Akatev
+      image_webp : images/team/art.jpeg
+      image : images/team/art.jpeg
+      designation : Lead Developer
+      content : Artem juggles web development, blockchain, and cryptography. He enjoys working on cars, and playing basketball.
+      social :
+        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
+          link : "https://twitter.com/aakatev"
+        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
+          link : "https://www.linkedin.com/in/artem-akatev-b68195144/"
+        - icon : ti-github # themify icon pack : https://themify.me/themify-icons
+          link : "https://github.com/aakatev"
+        
+    # team member loop
+    - name : Jason Maehr
+      image_webp : images/team/jason.png
+      image : images/team/jason.png
+      designation : Advisor
+      content : Wharton School of Business graduate, ex-Wall Streeter, Jason looks out for the team with his experience. And kindness.
+      social :
+        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
+          link : "https://twitter.com/dabitfather2"
+        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
+          link : "https://www.linkedin.com/in/jasonmaehr/"

@@ -1,0 +1,11 @@
+############################# call to action ##############################
+cta:
+  enable : true
+  bg_image : "images/backgrounds/blur2.jpg"
+  bg_image_webp : "images/backgrounds/blur2.jpg"
+  title : "Find Your Tribe"
+  content : "Come hang and connect with like minded souls"
+  button:
+    enable : true
+    label : "Join Our Community"
+    link : "https://t.me/joinchat/FF8nlFiZdotnygtg-zDFHw"

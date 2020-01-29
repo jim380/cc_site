@@ -1,0 +1,17 @@
+############################## Contact #############################
+contact:
+  enable : true
+  title : Contact Us
+  subtitle : Contact Details
+  content : Have questions? Get in touch.
+  form_action: "#" #contact form works with https://formspree.io
+
+  contact_details :
+    - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
+      info : "Mountain View, CA, United States"
+      
+    - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
+      info : "Phone: +1 (541) 908-4148"
+      
+    - icon : ti-email # themify icon pack : https://themify.me/themify-icons
+      info : "Email: admin@cyphercore.io"

@@ -1,0 +1,76 @@
+portfolio:
+  enable : true
+  title : Our Works
+  portfolio_item :
+    # portfolio item loop
+    - name : IRISnet
+      image : images/portfolio/irisnet.png
+      image_webp : images/portfolio/irisnet.png
+      categories : ["portfolio"]
+      content :
+      link : "https://iris.bigdipper.live/validator/iva1kfhee2nqrg64krqa97q3ufw9d0phzp3jjq3c4j"
+      
+    # portfolio item loop
+    - name : Cosmos
+      image : images/portfolio/cosmos.png
+      image_webp : images/portfolio/cosmos.png
+      categories : ["portfolio"]
+      content :
+      link : "https://cosmos.bigdipper.live/validator/cosmosvaloper1pjmngrwcsatsuyy8m3qrunaun67sr9x7z5r2qs"
+      
+    # portfolio item loop
+    - name : Wanchain
+      image : images/portfolio/wanchain.png
+      image_webp : images/portfolio/wanchain.png
+      categories : ["portfolio"]
+      content :
+      link : "https://www.wanscan.org/vld/0xd5ac2836fb15d71119af111bb269ffbd3f7928c5"
+      
+    # portfolio item loop
+    - name : Celo
+      image : images/portfolio/celo.png
+      image_webp : images/portfolio/celo.png
+      categories : ["portfolio"]
+      content :
+      link : "https://baklava-blockscout.celo-testnet.org/address/0xa87c05c4598fcf6d7bb9f9e41ebaa05c2cb46abd/celo"
+      
+    # portfolio item loop
+    - name : Regen Network
+      image : images/portfolio/regen.png
+      image_webp : images/portfolio/regen.png
+      categories : ["portfolio"]
+      content :
+      link : "#"
+      
+    # portfolio item loop
+    - name : Oasis
+      image : images/portfolio/oasis.png
+      image_webp : images/portfolio/oasis.png
+      categories : ["portfolio"]
+      content :
+      link : "#"
+      
+    # portfolio item loop
+    - name : Coris Explorer
+      image : images/portfolio/coris.png
+      image_webp : images/portfolio/coris.png
+      categories : ["development"]
+      content :
+      link : "https://github.com/jim380/Coris"
+      
+    # portfolio item loop
+    - name : Botelicious
+      image : images/portfolio/botiana.png
+      image_webp : images/portfolio/botiana.png
+      categories : ["development"]
+      content :
+      link : "https://github.com/jim380/Botelicious"
+      
+    # portfolio item loop
+    - name : Token Faucet
+      image : images/portfolio/faucet.png
+      image_webp : images/portfolio/faucet.png
+      categories : ["development"]
+      content :
+      link : "https://github.com/cyphercore-dev/regen-faucet"
+ 

@@ -1,0 +1,18 @@
+############################# feature ###################################
+feature:
+  enable : true
+  image : images/about/pokeball.png
+  image_webp : images/about/pokeball.png
+  title : Who We Are
+  content : We are blockchain enthusiasts who believe that blockchain technology, as a disruptive innovation, is poised to revolutionize the commerce world across every industry. Moreover, we are a collective of professionals with a shared passion to expose and deliver infallible opportunities for investors and consumers alike.
+  feature_item : 
+      # feature item loop
+    - title : Problem
+      icon : ti-world # themify icon pack : https://themify.me/themify-icons
+      content : Many businesses today struggle to connect with the intended customers and are facing serious barriers to consumer adoption. They turn to blockchain for a solution but often end up being misguided.
+      
+      # feature item loop
+    - title : Vision
+      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
+      content : Cypher Core strives to become the medium where not only can the projects reach a wider client base, businesses can also find the right solutions by learning the fundamentals of blockchain technology.
+

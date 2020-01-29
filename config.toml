@@ -1,124 +1,137 @@
+################################# Default configuration ###################
 baseURL = "/"
-languageCode = "en-us"
-DefaultContentLanguage = "en"
 title = "Cypher Core"
 theme = "meghna-hugo"
-summaryLength = 10
+# post pagination
+paginate = "6"
+# post excerpt
+summaryLength = "15"
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com
+# disable language
+disableLanguages = []
 
-[taxonomies]
-  author = "author"
-  category = "categories"
-  tag = "tags"
+############################# Plugins ##########################
+# css plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/animate-css/animate.css"
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
 
-# Menu
-[menu]
-    [[menu.nav]]
-    name = "About"
-    URL = "about"
-    weight = 2
+# js plugins
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
+[[params.plugins.js]]
+link = "plugins/wow/wow.min.js"
+[[params.plugins.js]]
+link = "plugins/lazy-load/lozad.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/map.js"
 
-    [[menu.nav]]
-    name = "Staking"
-    URL = "services"
-    weight = 3
+############################# Navigation ##################################
+[[menu.main]]
+name = "About"
+URL = "about"
+weight = 1
 
-    [[menu.nav]]
-    name = "Works"
-    URL = "portfolio"
-    weight = 4
+[[menu.main]]
+name = "Staking"
+URL = "services"
+weight = 2
 
-    [[menu.nav]]
-    name = "Team"
-    URL = "our-team"
-    weight = 5
+[[menu.main]]
+name = "Works"
+URL = "portfolio"
+weight = 3
 
-    [[menu.nav]]
-    name = "Contact"
-    URL = "contact-us"
-    weight = 7
+[[menu.main]]
+name = "Team"
+URL = "team"
+weight = 4
 
-# Site params
+[[menu.main]]
+name = "Contact"
+URL = "contact"
+weight = 5
+
+############################# Default Parameters ##########################
 [params]
-home= "Home"
 logo = "images/logo_cc.png"
-gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 # Meta data
 description = "Staking Service"
 author = "Cypher Core"
 # Google Analitycs
-googleAnalitycsID = "Your ID"
-custom_css = ["css/custom.css"]
+google_analitycs_id = "" # Your ID
+# post share
+post_share = true
 
-    # Banner Section
-    [params.banner]
-    enable = true
-    bgImage = "images/slider/bg.jpg"
-    icon = "tf-ion-play"
-    heading = "Cypher Core"
-    content= "DeFi for everyone"
-    btn = true
-    btnText="Explore Us"
-    btnURL="#services"
+# preloader
+[params.preloader]
+enable = true
+preloader = "images/logo_cc.png"
 
-    # call to action
-    [params.cta]
-    enable = true
-    title = "Find Your Tribe"
-    content = "Come hang and connect with like minded souls."
-    btnURL = "https://t.me/joinchat/FF8nlFiZdotnygtg-zDFHw"
-    btnText = "Join Our Community"
+# google map
+[params.map]
+enable = false
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
+map_latitude = "51.5223477"
+map_longitude = "-0.1622023"
+map_marker = "images/marker.png"
 
-    # counter
-    [params.counter]
-    enable = false
-    bgImage = "images/backgrounds/bg-1.jpg"
-        [[params.counter.counterItem]]
-        title = "Happy Clients"
-        icon = "tf-ion-android-happy"
-        count = "320"
+############################# social icons ##########################
+[[params.social]]
+icon = "ti-twitter-alt"
+link = "https://twitter.com/cypher_core"
 
-        [[params.counter.counterItem]]
-        title = "Projects completed"
-        icon = "tf-ion-archive"
-        count = "565"
+[[params.social]]
+icon = "ti-youtube"
+link = "https://www.youtube.com/channel/UC3TX-EeAeg7LyEzf6isIC8g"
 
-        [[params.counter.counterItem]]
-        title = "Positive feedback"
-        icon = "tf-ion-thumbsup"
-        count = "95"
+[[params.social]]
+icon = "ti-linkedin"
+link = "https://www.linkedin.com/company/cypher-core/"
 
-        [[params.counter.counterItem]]
-        title = "Cups of Coffee"
-        icon = "tf-ion-coffee"
-        count = "2500"
+[[params.social]]
+icon = "ti-instagram"
+link = "https://www.instagram.com/cypher_core/"
 
-    # footer
-    [params.footer]
-        copyright = "Cypher Core LLC."
-        copyrightURL = "http://cyphercore.io"
+[[params.social]]
+icon = "ti-github"
+link = "https://github.com/cyphercore-dev"
 
-        # social Icons
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-twitter"
-        url = "https://twitter.com/cypher_core"
+[[params.social]]
+icon = "ti-book"
+link = "https://medium.com/cypher-core"
 
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-youtube"
-        url = "https://www.youtube.com/channel/UC3TX-EeAeg7LyEzf6isIC8g"
 
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-linkedin"
-        url = "https://www.linkedin.com/company/cypher-core/"
+################################ English Language ########################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+home = "Home"
 
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-instagram"
-        url = "https://www.instagram.com/cypher_core/"
-
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-github"
-        url = "https://github.com/cyphercore-dev"
-
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-ios-book"
-        url = "https://medium.com/cypher-core"
-
+################################ France Language ########################
+[Languages.fr]
+languageName = "Fr"
+languageCode = "fr-fr"
+contentDir = "content/french"
+weight = 2
+home = "Accueil"
